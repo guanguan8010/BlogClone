@@ -1,0 +1,33 @@
+#开发环境
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8&serverTimezone=CTT&useSSL=false
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+      properties:
+        hibernate:
+          format_sql: true
+server:
+  port: 8080
+
+
+Oos:
+  accessKeyId: "LTAI4FczucgRZwN2v48ZJ3FY"
+  accessKeySecret: "vY4PSvwp2hvv5vUi9ZmeNQIOQeMxu2"
+  bucketName: "project-gym-img-01"
+  endpoint: "oss-cn-beijing.aliyuncs.com"
+
+
+logging:
+  level:
+    root: info
+    com.lrm: debug
+  file: log/blog-dev.log
+
+
+

@@ -1,0 +1,4 @@
+2019-12-26 18:18:08.661  INFO 9756 --- [restartedMain] com.lrm.BlogApplication                  : Starting BlogApplication on LAPTOP-B4HTP0HG with PID 9756 (R:\idea\IdeaProjects\blog\target\classes started by Orange-zh in R:\idea\IdeaProjects\blog)
+2019-12-26 18:18:08.663  INFO 9756 --- [restartedMain] com.lrm.BlogApplication                  : The following profiles are active: pro
+2019-12-26 18:18:17.395  WARN 9756 --- [restartedMain] .t.AbstractTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019-12-26 18:18:18.354  INFO 9756 --- [restartedMain] com.lrm.BlogApplication                  : Started BlogApplication in 10.749 seconds (JVM running for 13.153)
